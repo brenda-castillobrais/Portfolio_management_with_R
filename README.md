@@ -1,5 +1,10 @@
 # portfolio_management_with_R
-An application of Rockafellar and Uryasev (2000) using real financial data, a GJR-GARCH model for margins, and copulas to model their dependence structure. 
+In this exercise I apply three key methodologies widely used in Finance:
+1. A GJR-GARCH model for conditional volatility with unconditional mean and a Hansen's (1994) Skewed-t dostribution for the errors.
+2. A C-Vine copula model for dependence.
+3. Portfolio optimization problem as in Rockafellar and Uryasev (2000), using real financial data.
+
+I apply the previous empirical methods in order to find the portfolio investment strategy that minimizes market risk. 
 
 ## 1) portfolio_optimization
 In the "portfolio_optimization" notebook, I illustrate the whole process followed to solve the portfolio optimization problem as suggested by Rockafellar and Uryasev (2000). This methodology requires the simulation of a large number of tomorrow return series. To do this, I use a GJR-GARCH (1,1,1) with Skewed-t errors and a C-Vine copula.
