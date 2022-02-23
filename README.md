@@ -15,7 +15,7 @@ In short, the problem that I solve here is the following. We have d stocks and w
 
 ## 2) rolling_window_evaluation
 In this notebook, I evaluate the portfolio performance using the approach illustrated in 1). How? As new information arrives for each stock at day t, the
-portfolio manager has to make a forecast of asset returns for the next day t + 1. Based upon the forecast of asset returns,the manager rebalances the portfolio weights every 10 days (biweekly rebalancing) to construct a new portfolio that achieves the desired investment objective (e.g., market risk minimization).
+portfolio manager has to make a forecast of asset returns for the next day t + 1. Based upon the forecast of asset returns, the manager rebalances the portfolio weights  to construct a new portfolio that achieves the desired investment objective (e.g., market risk minimization). In this example, weights rebalancing is done every 10 days.
 
 To measure performance, I compute the evolution of wealth by hypothetically investing $100 at day t=0. The evolution of wealth is given by  
 ```math
