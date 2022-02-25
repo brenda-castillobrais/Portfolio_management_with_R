@@ -1,10 +1,10 @@
 # portfolio_management_with_R
-Here, I focus in the typical scenario faced by a portfolio manager in an investment fund. I apply the empirical methods listed below in order to find the portfolio investment strategy that minimizes market risk.
+Here, I focus in the typical scenario faced by a portfolio manager in an investment fund. I apply the empirical methods listed below in order to find the portfolio investment strategy that minimizes market risk. For this exercise, I use real financial data downloaded from Yahoo Finance (historical daily stock prices) .
 
 In this exercise I apply three key methodologies widely used in Financial Econometrics:
 1. A GJR-GARCH model for conditional volatility with unconditional mean and a Hansen's (1994) Skewed-t distribution for the errors.
 2. A C-Vine/R-Vine copula model for dependence.
-3. Portfolio optimization problem as in Rockafellar and Uryasev (2000), using real financial data.
+3. Portfolio optimization problem as in Rockafellar and Uryasev (2000).
 
  
 
